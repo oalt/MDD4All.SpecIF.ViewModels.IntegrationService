@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>MDD4All_Github.snk</AssemblyOriginatorKeyFile>
+    <AssemblyName>MDD4All.SpecIF.ViewModels.IntegrationService</AssemblyName>
+    <RootNamespace>MDD4All.SpecIF.ViewModels.IntegrationService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MvvmLightLibsStd10" Version="5.4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="$(SolutionDir)\MDD4All.SpecIF.ServiceDataProvider\src\MDD4All.SpecIF.ServiceDataProvvider\MDD4All.SpecIF.ServiceDataProvider-dev.csproj" />
+  </ItemGroup>
+
+</Project>
