@@ -14,6 +14,9 @@
 
   <ItemGroup>
     <ProjectReference Include="$(SolutionDir)\MDD4All.SpecIF.ServiceDataProvider\src\MDD4All.SpecIF.ServiceDataProvvider\MDD4All.SpecIF.ServiceDataProvider-dev.csproj" />
+    <ProjectReference Include="..\..\..\MDD4All.SpecIF.Converters\src\MDD4All.SpecIF.Converters\MDD4All.SpecIF.Converters-dev.csproj" />
+    <ProjectReference Include="..\..\..\MDD4All.SpecIF.DataProvider.Contracts\src\MDD4All.SpecIF.DataProvider.Contracts\MDD4All.SpecIF.DataProvider.Contracts-dev.csproj" />
+    <ProjectReference Include="..\..\..\MDD4All.SpecIF.DataProvider.File\src\MDD4All.SpecIF.DataProvider.File\MDD4All.SpecIF.DataProvider.File-dev.csproj" />
   </ItemGroup>
 
 </Project>
